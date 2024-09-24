@@ -1,0 +1,21 @@
+.navbar-brand {
+  color: rgba(9, 0, 0, 0); /* Keeps the text transparent */
+  display: flex;
+  align-items: center;
+}
+
+.navbar-brand img {
+  margin-right: 10px; /* Space between logo and text */
+  opacity: 0.5; /* Adjust the opacity to make the logo transparent */
+  transition: opacity 0.3s ease; /* Smooth transition effect */
+}
+
+.navbar-brand img:hover {
+  opacity: 1; /* Make the logo fully visible on hover */
+}
+
+.navbar-brand span {
+  color: white; /* Text color for the brand name */
+  font-size: 1.5rem; /* Adjust font size as needed */
+  font-weight: bold; /* Make the text bold */
+}
