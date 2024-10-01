@@ -1,0 +1,92 @@
+/* src/components/diabetes.css */
+
+.diabetes-page {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    padding: 40px;
+    background: linear-gradient(to bottom right, #021c4c00, #0d6fd800); /* Applied background gradient */
+    color: white; /* Set default font color to white */
+  }
+  
+  .title {
+    font-size: 36px;
+    color: #ffffff; /* White color for title */
+    text-align: center;
+    margin-bottom: 40px;
+  }
+  
+  .container {
+    display: flex;
+    justify-content: space-between;
+    width: 100%;
+    max-width: 1200px;
+  }
+  
+  .column {
+    width: 30%;
+    background-color: rgba(255, 255, 255, 0.2); /* Semi-transparent white background for columns */
+    padding: 20px;
+    border-radius: 10px;
+    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
+    text-align: center;
+    background: linear-gradient(to bottom right, #021c4cb7, #0d6fd890);
+  }
+  
+  .column h2 {
+    color: #ffffff; /* White color for column headings */
+    margin-bottom: 20px;
+  }
+  
+  .row {
+    display: flex;
+    flex-direction: column;
+    margin-bottom: 15px;
+  }
+  
+  label {
+    font-size: 16px;
+    margin-bottom: 5px;
+    color: #ffffff; /* White color for labels */
+  }
+  
+  input[type="number"] {
+    padding: 8px;
+    border-radius: 5px;
+    border: 1px solid #ccc;
+    width: 100%;
+    box-sizing: border-box;
+  }
+  
+  input[type="number"]::placeholder {
+    color: #999;
+  }
+  
+  input[type="number"]:focus {
+    border-color: #ffffff; /* White border color on focus */
+    outline: none;
+    box-shadow: 0 0 5px rgba(255, 255, 255, 0.2); /* Slight white shadow on focus */
+  }
+  
+  /* Predict Button Styles */
+  .predict-button-container {
+    display: flex;
+    justify-content: center;
+    margin-top: 30px;
+  }
+  
+  .predict-button {
+    padding: 10px 20px;
+    font-size: 18px;
+    color: #fff;
+    background-color: #007bff; /* Bootstrap primary color */
+    border: none;
+    border-radius: 5px;
+    cursor: pointer;
+    transition: background-color 0.3s ease;
+  }
+  
+  .predict-button:hover {
+    background-color: #0056b3; /* Darker shade of blue for hover */
+  }
+  
